@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receita</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Baloo+Paaji+2:wght@400;700&family=Commissioner&family=Pacifico&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="cabeca">
+            <h1>Pão e sopa</h1>
+
+    </div>
+</header>
+    <form>
+        <fieldset>
+            <legend>Ingredientes</legend>
+   
+            <div class="form-group bloco">
+                <div class="celula">
+                    <label for="nome1">Nome:</label>
+                    <input id="nome1" name="nome1" type="text" size="20">
+                </div>
+                <div class="celula">
+                    <label for="quantidade1">Quantidade:</label>
+                    <input id="quantidade1" name="quantidade1" type="number" size="10">
+                </div>
+            </div>
+
+            <div class="form-group bloco">
+                <div class="celula">
+                    <label for="nome2">Nome:</label>
+                    <input id="nome2" name="nome2" type="text" size="20">
+                </div>
+                <div class="celula">
+                    <label for="quantidade2">Quantidade:</label>
+                    <input id="quantidade2" name="quantidade2" type="number" size="10">
+                </div>
+            </div>
+
+            <div class="form-group bloco">
+                <div class="celula">
+                    <label for="nome3">Nome:</label>
+                    <input id="nome3" name="nome3" type="text" size="20">
+                </div>
+                <div class="celula">
+                    <label for="quantidade3">Quantidade:</label>
+                    <input id="quantidade3" name="quantidade3" type="number" size="10">
+                </div>
+            </div>
+
+        </fieldset>
+    </form>
+
+
+    <form>
+        <fieldset>
+            <legend>Receita</legend>
+    
+            <div class="bloco">
+                <div class="celula">
+                    <label for="autor">Dono:</label>
+                    <input id="autor" name="autor" type="text" size="20">
+                </div>
+            </div>
+
+    
+            <div class="bloco">
+                <div class="celula">
+                    <span>É fit?</span>
+                    <div>
+                        <input type="radio" id="sim" name="opcoes_fit" value="sim">
+                        <label for="sim">Sim</label>
+                        <input type="radio" id="nao" name="opcoes_fit" value="nao">
+                        <label for="nao">Não</label>
+                    </div>
+                </div>
+            </div>
+
+       
+            <div class="bloco">
+                <div class="celula">
+                    <span>Contém:</span>
+                    <div>
+                        <input type="checkbox" id="glutem" name="glutem">
+                        <label for="glutem">Glúten</label>
+                        <input type="checkbox" id="lactose" name="lactose">
+                        <label for="lactose">Lactose</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bloco">
+                <div class="celula">
+                    <label for="passo_a_passo">Passo a Passo:</label>
+                    <textarea id="passo_a_passo" name="passo_a_passo" cols="60" rows="10"></textarea>
+                </div>
+            </div>
+
+
+        </fieldset>
+    </form>
+
+</body>
+</html>
