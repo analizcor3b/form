@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+    <fieldset>
+        <legend> Dados para cadastro</legend>
+        <div> 
+            <span> Nome completo</span>
+            <input type = "text">
+        </div>
+            <br>
+            <div>
+            <span> Telefone</span>
+            <input type = "text">
+            <span> Endereço </span>
+            <input type = "text">
+            </div>
+            <br>
+        <div>
+            <span> Idade </span>
+            <input type = "numer">
+            <span> Peso </span>
+            <input type = "text">
+            <span> Altura </span>
+             <input type = "number">
+             <span> Cm </span>
+         </div>
+         <br>
+         <br>
+         Possui algum problema de saúde?
+         <div class="radiocheck">
+            <input type="radio" name="problemaDeSaude" id="p1" value="sim"> 
+            <label for="p1">Sim</label> 
+            <input type="radio" name="problemaDeSaude" id="p2" value="nao">
+             <label for="p2">Não</label>
+         </div>
+         <br>
+         <div>
+         <label for="problema de saude">Se a resosta a pergunta anterior for sim, qual?</label> 
+        <select id="problema de saude" name="problema de saude"> 
+        <option value="Cardiaco">Cardiaco</option>
+        <option value="Diabetes">Diabetes </option>
+        <option value="Prolema de coluna">Prolema de coluna</option> 
+        <option value="Problema respiratório">Problema respiratório</option>
+        <option value="Outros">Outros</option>
+        </select>
+        <span> Outros </span>
+        <input type = "text">
+        </div>
+        <br>
+        Qua seu objetivo na academia?
+        <div class="radiocheck">
+            <input type="radio" name="objetivo" id="ob1" value="emagrecimento">
+             <label for="ob1">Emagrecimento</label> 
+            <input type="radio" name="objetivo" id="ob2" value="ganhoMassa">
+             <label for="ob2">Ganho de massa muscular</label> 
+             <input type="radio" name="objetivo" id="ob3" value="reabilitacao">
+              <label for="ob3">Reabilitação</label> 
+              <input type="radio" name="objetivo" id="ob4" value="outros">
+             <label for="ob4">Outros</label>
+        </div>
+            <div>
+            <span> Outros </span>
+            <input type = "text">
+        </div>
+        <br>
+        <br>
+        <span> Alguma observação que queira adicionar aos seus dados?  </span>
+        <br>
+        <textarea cols="60" rows="4"></textarea>
+    </fieldset>
+</form>
+</body>
+</html>
